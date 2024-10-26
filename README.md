@@ -1,7 +1,3 @@
-Tentu saja, saya bisa bantu mengedit agar README ini mencerminkan proyek yang dimiliki oleh kamu! Berikut adalah versi yang disesuaikan:
-
----
-
 # SOW - Project Documentation Starter Kit
 
 **SOW** adalah kit starter dokumentasi yang kuat, dibangun dengan **Next.js**, **React**, **Tailwind CSS**, dan **TypeScript**. Dirancang khusus untuk menyederhanakan pembuatan dokumentasi produk, manual teknis, dan panduan bisnis yang komprehensif. Dengan fondasi ini, kamu dapat membangun basis pengetahuan dan dokumentasi proyek yang fleksibel dan dapat diskalakan.
