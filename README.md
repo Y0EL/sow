@@ -1,10 +1,14 @@
-# Documents
+Tentu saja, saya bisa bantu mengedit agar README ini mencerminkan proyek yang dimiliki oleh kamu! Berikut adalah versi yang disesuaikan:
 
-**Documents** is a powerful **Next.js** documentation starter kit designed to simplify the process of creating high-quality, comprehensive product documentation, technical manuals and business guides. Built with **React**, **Tailwind CSS** and **TypeScript**, this starter kit provides the foundation to build your project documentation and knowledge base.
+---
 
-**Demo**: [https://rubix-documents.vercel.app/](https://rubix-documents.vercel.app/)
+# SOW - Project Documentation Starter Kit
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents&project-name=my-documents&repository-name=my-documents&demo-title=Documents&demo-description=This%20Document%20Starter%20Kit%20is%20developed%20with%20Next.js%2C%20Tailwind%20CSS%20and%20TypeScript.%20It%20serves%20as%20a%20flexible%20and%20scalable%20foundation%20for%20building%20documentation%20websites%20or%20content-driven%20projects.&demo-url=https%3A%2F%2Frubix-documents.vercel.app%2F&demo-image=https%3A%2F%2Fgithub.com%2Frubixvi%2Frubix-documents%2Fblob%2Fmain%2Fpublic%2Fscreens%2Fscreen-1.png)
+**SOW** adalah kit starter dokumentasi yang kuat, dibangun dengan **Next.js**, **React**, **Tailwind CSS**, dan **TypeScript**. Dirancang khusus untuk menyederhanakan pembuatan dokumentasi produk, manual teknis, dan panduan bisnis yang komprehensif. Dengan fondasi ini, kamu dapat membangun basis pengetahuan dan dokumentasi proyek yang fleksibel dan dapat diskalakan.
+
+**Demo**: [https://sow-demo.vercel.app/](https://sow-demo.vercel.app/)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FY0EL%2Fsow&project-name=my-documents&repository-name=my-documents&demo-title=SOW&demo-description=This%20Document%20Starter%20Kit%20is%20developed%20with%20Next.js%2C%20Tailwind%20CSS%20and%20TypeScript.%20It%20serves%20as%20a%20flexible%20and%20scalable%20foundation%20for%20building%20documentation%20websites%20or%20content-driven%20projects.&demo-url=https%3A%2F%2Fsow-demo.vercel.app%2F&demo-image=https%3A%2F%2Fgithub.com%2FY0EL%2Fsow%2Fblob%2Fmain%2Fpublic%2Fscreens%2Fscreen-1.png)
 
 ## Table of Contents
 
@@ -17,17 +21,17 @@
 
 ## Documentation
 
-[https://docs.rubixstudios.com.au](https://docs.rubixstudios.com.au) **(In-Development)**
+[https://docs.sow-project.com](https://docs.sow-project.com) **(In-Development)**
 
 ## Development
 
 ### Installation
 
-1. Clone the repository:
+1. Clone repository:
 
     ```bash
-    git clone https://github.com/rubixvi/rubix-documents.git
-    cd rubix-documents
+    git clone https://github.com/Y0EL/sow.git
+    cd sow
     ```
 
 2. Install dependencies:
@@ -64,7 +68,7 @@
 
 ## Usage
 
-This kit can be used to create product documentation, business websites and guides.
+Kit ini dapat digunakan untuk membuat dokumentasi produk, situs bisnis, dan panduan.
 
 ![Main Screen](./public/screens/screen-1.png)
 *Main Screen*
@@ -88,54 +92,55 @@ This kit can be used to create product documentation, business websites and guid
 
 ### Content Creation
 
-- **MDX Integration**: Write docs with Markdown & JSX components.
-- **Custom Components**: Reuse React components in your docs.
-- **Mermaid.js Diagrams**: Create flowcharts & diagrams.
-- **Math & Tables**: Include tables & LaTeX math formulas.
+- **MDX Integration**: Menulis dokumentasi dengan Markdown & komponen JSX.
+- **Custom Components**: Gunakan komponen React secara langsung di dokumen.
+- **Mermaid.js Diagrams**: Membuat diagram dan flowchart.
+- **Math & Tables**: Menyertakan tabel & formula matematika LaTeX.
 
 ### Navigation & Readability
 
-- **Multi-level Navigation**: Nested pages for hierarchy.
-- **Content Pagination**: Smooth transitions between pages.
+- **Multi-level Navigation**: Mendukung halaman bertingkat.
+- **Content Pagination**: Transisi antar halaman yang mulus.
 - **Dynamic TOC**: Auto-generated table of contents.
-- **Code Switcher**: Toggle & copy code snippets easily.
+- **Code Switcher**: Fitur toggle & salin untuk kode.
 
 ### Code Features
 
-- **Syntax Highlighting**: Theme-aware highlighting.
-- **Enhanced Code Blocks**: Line highlighting & code titles.
+- **Syntax Highlighting**: Penyorotan tema-aware.
+- **Enhanced Code Blocks**: Penyorotan baris kode dan judul.
 
 ### Theming & UX
 
-- **Light/Dark Modes**: Automatic theme switching.
-- **SEO Optimization**: Auto-generated metadata for better ranking.
-  - Manage meta tags (title, description, URLs, social sharing).
+- **Light/Dark Modes**: Mode terang dan gelap otomatis.
+- **SEO Optimization**: Metadata otomatis untuk peringkat lebih baik.
+  - Mengatur meta tags (judul, deskripsi, URL, dan share sosial).
 
 ### Search & Future Enhancements
 
-- **Advanced Search**: Fuzzy search with term highlighting.
-- **AI Knowledgebase**: Future AI-powered doc tools.
+- **Advanced Search**: Pencarian fuzzy dengan highlight kata kunci.
+- **AI Knowledgebase**: Dukungan AI di masa depan.
 
-> **Note:** AI documentation support is in development.
+> **Catatan:** Fitur AI untuk dokumentasi sedang dalam pengembangan.
 
 ## Contributing
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
+1. Fork repository.
+2. Buat branch baru (`git checkout -b feature-branch`).
+3. Lakukan perubahan.
+4. Commit perubahan (`git commit -m 'Tambah fitur tertentu'`).
+5. Push ke branch (`git push origin feature-branch`).
+6. Buka pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat file [LICENSE](./LICENSE) untuk detail lebih lanjut.
 
 ## Contact
 
-For support or inquiries, contact Vincent Vu [@rubixvi](https://x.com/rubixvi) on X.
+Untuk bantuan atau pertanyaan, hubungi Yoel [@Y0EL](https://x.com/Y0EL) di X.
 
-Rubix Studios - [https://www.rubixstudios.com.au](https://www.rubixstudios.com.au)
+Yoel Portfolio - [https://yoel.pw](https://yoel.pw)
 
-Project: [https://github.com/rubixvi/rubix-documents](https://github.com/rubixvi/rubix-documents)
-# sow
+Proyek: [https://github.com/Y0EL/sow](https://github.com/Y0EL/sow)
+
+--- 
