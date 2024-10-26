@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Logo } from "@/components/navigation/logo";
-import { LuArrowUpRight, LuGithub } from "react-icons/lu";
+import { LuArrowUpRight } from "react-icons/lu";
+import { FaWhatsapp } from "react-icons/fa"; // Mengimpor ikon WhatsApp dari Font Awesome
 
 import { ModeToggle } from "@/components/navigation/theme-toggle";
 import { SheetLeft } from "@/components/navigation/sidebar";
 import Search from "@/components/navigation/search";
 import Anchor from "@/components/navigation/anchor";
-import { Navigations, GitHubLink } from "@/settings/navigation";
+import { Navigations } from "@/settings/navigation";
 import { buttonVariants } from "@/components/ui/button";
 import { SheetClose } from "@/components/ui/sheet";
 
@@ -29,17 +30,16 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <Search />
           <div className="flex sm:ml-0 gap-2">
-            {GitHubLink.href && (
-              <Link
-                href={GitHubLink.href}
-                className={buttonVariants({ variant: "outline", size: "icon" })}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="View the repository on GitHub"
-              >
-                <LuGithub className="w-[1.1rem] h-[1.1rem]" />
-              </Link>
-            )}
+            {/* Mengganti tautan GitHub dengan tautan WhatsApp */}
+            <Link
+              href={`https://wa.me/62817104060`} // Link WhatsApp
+              className={buttonVariants({ variant: "outline", size: "icon" })}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Hubungi kami di WhatsApp"
+            >
+              <FaWhatsapp className="w-[1.1rem] h-[1.1rem]" /> {/* Menggunakan ikon WhatsApp */}
+            </Link>
             <ModeToggle />
           </div>
         </div>

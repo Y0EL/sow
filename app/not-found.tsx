@@ -9,7 +9,7 @@ export default function NotFound() {
         404
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-        Page not found
+        Apa yang kamu cari?
       </p>
       <div className="flex items-center">
         <Link 

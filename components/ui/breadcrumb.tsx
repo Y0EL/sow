@@ -114,7 +114,7 @@ const BreadcrumbEllipsis = ({
     {...props}
   >
     <LuMoreHorizontal className="h-4 w-4" />
-    <span className="sr-only">More</span>
+    <span className="sr-only">Lainnya</span>
   </span>
 )
 BreadcrumbEllipsis.displayName = "BreadcrumbEllipsis"

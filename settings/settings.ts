@@ -1,18 +1,18 @@
-export const url = "https://rubix-documents.vercel.app";
-export const siteicon = "/icon.png";
+export const url = "https://yoel.pw/";
+export const siteicon = "/herun.svg";
 
-export const gtm = "GTM-XXXXXXX";
+export const gtm = "GTM-HERUN123";
 export const gtmconnected = true;
 
-export const sitename = "Documents";
-export const description = "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.";
-export const keywords = ["Next.js", "documentation", "Rubix Studios", "open source", "SEO"];
-export const urlimage = "/images/og-image.png";
-export const imagealt = "Rubix Studios Documentation";
-export const twitterhandle = "@RubixStudios";
+export const sitename = "Scope Of Work";
+export const description = "Dokumentasi lengkap dari PT Herun International Brand, dibangun dengan Next.js, menawarkan desain yang elegan dan responsif untuk memenuhi semua kebutuhan dokumentasi proyek Anda.";
+export const keywords = ["Next.js", "dokumentasi", "PT Herun International Brand", "open source", "SEO"];
+export const urlimage = "/images/images.jpeg";
+export const imagealt = "Dokumentasi PT Herun International Brand";
+export const twitterhandle = "@HerunBrand";
 
-export const companyname = "Rubix Studios";
-export const companylink = "https://www.rubixstudios.com.au";
+export const companyname = "PT Herun International Brand";
+export const companylink = "https://scoopwork.netlify.app";
 
 export const branding = true;
 export const rightsidebar = true;

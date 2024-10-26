@@ -15,10 +15,10 @@ export default function RightSideBar({ slug, title }: SideBarEdit) {
 
   return (
     <div className="flex flex-col gap-3 pl-2">
-      <h3 className="text-sm font-semibold">This content</h3>
+      <h3 className="text-sm font-semibold">Konten</h3>
       <div className="flex flex-col gap-2">
         <Link
-          href={feedbackUrl}
+          href="https://wa.me/62817104060?text=Feedback"
           target="_blank"
           rel="noopener noreferrer"
           className={cn(
@@ -28,14 +28,14 @@ export default function RightSideBar({ slug, title }: SideBarEdit) {
           <LuArrowUpRight className="mr-1 w-4 h-4 inline-block" /> Feedback
         </Link>
         <Link
-          href={editUrl}
+          href="https://wa.me/62817104060?text=Kerjasama"
           target="_blank"
           rel="noopener noreferrer"
           className={cn(
             "text-sm text-neutral-800 dark:text-neutral-300/85 no-underline flex items-center"
           )}
         >
-          <LuArrowUpRight className="mr-1 w-4 h-4 inline-block" /> Edit page
+          <LuArrowUpRight className="mr-1 w-4 h-4 inline-block" /> Kerjasama
         </Link>
       </div>
     </div>

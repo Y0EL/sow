@@ -2,21 +2,21 @@ import { Paths } from "@/lib/pageroutes";
 
 export const Documents: Paths[] = [
   {
-    title: "Introduction",
-    href: "/introduction",
-    heading: "Getting started",
+    title: "Pembuka",
+    href: "/pembuka",  // Halaman awal
+    heading: "Ayo Mulai",
     items: [
       {
-        title: "Installation",
-        href: "/installation",
+        title: "Syarat dan Ketentuan",
+        href: "/syarat-ketentuan",  // Halaman syarat dan ketentuan
       },
       {
-        title: "Setup",
-        href: "/setup",
+        title: "Ketentuan Konten",
+        href: "/ketentuan-konten",  // Halaman ketentuan konten
       },
       {
-        title: "Changelog",
-        href: "/changelog",
+        title: "Update",
+        href: "/update",  // Halaman perubahan dan pembaruan
       },
     ],
   },
@@ -24,70 +24,26 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Navigation",
-    href: "/navigation",
-    heading: "Documents",
-  },
-  {
-    title: "Structure",
-    href: "/structure",
+    title: "Informasi Tambahan",
+    href: "/informasi-tambahan",  // Halaman informasi umum
+    heading: "Dokumentasi Kerjasama",
     items: [
       {
-        title: "Deeper",
-        href: "/deeper",
-        items : [
-          {
-            title: "Even deeper",
-            href: "/even-deeper",
-          },
-        ]
+        title: "Deskripsi Proyek",
+        href: "/deskripsi-proyek",  // Halaman deskripsi proyek
+      },
+      {
+        title: "Tujuan dan Sasaran",
+        href: "/tujuan-sasaran",  // Halaman tujuan dan sasaran
+      },
+      {
+        title: "Biaya dan Pembayaran",
+        href: "/biaya-pembayaran",  // Halaman rincian biaya
       },
     ],
   },
   {
-    spacer: true,
-  },
-  {
-    title: "Markup",
-    href: "/markup",
-    heading: "Components",
-    items: [
-      {
-        title: "Cards",
-        href: "/cards",
-      },
-      {
-        title: "Diagrams",
-        href: "/diagrams",
-      },
-      {
-        title: "Filetree",
-        href: "/filetree",
-      },
-      {
-        title: "Lists",
-        href: "/lists",
-      },
-      {
-        title: "Maths",
-        href: "/maths",
-      },
-      {
-        title: "Notes",
-        href: "/notes",
-      },
-      {
-        title: "Steps",
-        href: "/steps",
-      },
-      {
-        title: "Table",
-        href: "/table",
-      },
-      {
-        title: "Tabs",
-        href: "/tabs",
-      },
-    ],
+    title: "Kontak",
+    href: "/kontak",  // Halaman kontak untuk informasi lebih lanjut
   },
 ];

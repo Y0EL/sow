@@ -20,13 +20,13 @@ export function Footer() {
           <div className="text-center hidden md:block">
             <Link 
               className="font-semibold" 
-              href="https://www.rubixstudios.com.au"
+              href="https://yoel.pw/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image
-                src="/logo.svg"
-                alt="Rubix Studios Logo"
+                src="/yoel.png"
+                alt="Yoel Andreas Manoppo | IT Developer Herun"
                 width={30}
                 height={30}
               />

@@ -41,7 +41,7 @@ export function BackToTop({ className }: { className?: string }): ReactElement {
         <LuArrowUp
             className="inline-block w-4 h-4 mr-1 align-middle"
         />
-      <span>Scroll to top</span>
+      <span>Kembali ke Atas</span>
     </button>
   );
 }
