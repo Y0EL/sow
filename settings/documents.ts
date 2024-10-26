@@ -24,8 +24,8 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Informasi Tambahan",
-    href: "/informasi-tambahan",  // Halaman informasi umum
+    title: "Ruang Lingkup",
+    href: "/ruang-lingkup",  // Halaman informasi umum
     heading: "Dokumentasi Kerjasama",
     items: [
       {
@@ -39,6 +39,10 @@ export const Documents: Paths[] = [
       {
         title: "Biaya dan Pembayaran",
         href: "/biaya-pembayaran",  // Halaman rincian biaya
+      },
+      {
+        title: "Informasi Tambahan", // Menambahkan halaman Informasi Tambahan
+        href: "/informasi-tambahan",  // Halaman Informasi Tambahan
       },
     ],
   },
